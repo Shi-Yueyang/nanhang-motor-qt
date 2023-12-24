@@ -1,0 +1,93 @@
+[
+    {
+        "name":"xyz",
+        "commands":
+        [
+            {
+                "id":44,
+                "mode": "continues",
+                "angle": 5000,
+                "speed":60
+            },
+            {
+                "id":45,
+                "mode": "continues",
+                "angle": 5000,
+                "speed":70
+            },
+            {
+                "id":46,
+                "mode": "continues",
+                "angle": 5000,
+                "speed":60
+            }
+        ]
+    },
+
+
+    {
+        "name":"RCM1",
+        "commands":
+        [
+            {
+                "id":43,
+                "mode": "continues",
+                "angle": -20,
+                "speed":20
+            },
+            {
+                "id":42,
+                "mode": "continues",
+                "angle": -25,
+                "speed":25
+            }
+        ]
+    },
+
+    {
+        "name":"xyz",
+        "commands":
+        [
+            {
+                "id":44,
+                "mode": "continues",
+                "angle": 0,
+                "speed":80
+            },
+            {
+                "id":45,
+                "mode": "continues",
+                "angle": 0,
+                "speed":60
+            },
+            {
+                "id":46,
+                "mode": "continues",
+                "angle": 0,
+                "speed":70
+            }
+        ]
+    },
+
+    {
+        "name":"RCM2",
+        "commands":
+        [
+            {
+                "id":43,
+                "mode": "continues",
+                "angle": 0,
+                "speed":25
+            },
+            {
+                "id":42,
+                "mode": "continues",
+                "angle": 0,
+                "speed":40
+            }
+        ]
+    }
+]
+
+
+
