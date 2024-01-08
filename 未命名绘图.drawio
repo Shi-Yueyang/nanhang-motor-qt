@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-08T03:01:08.925Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="f54yoVWZ9f0PLCcDkdA2" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-08T03:03:21.510Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6WNCG7gJo90ocXyzHhyj" version="22.1.17" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1026" dy="1768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -36,7 +36,7 @@
             <mxPoint x="420" y="250.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FzLFaQrDB-EBAlo0IdFk-1" value="Robot" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FzLFaQrDB-EBAlo0IdFk-1" value="RobotModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="730" y="180" width="220" height="160" as="geometry">
             <mxRectangle x="420" y="180" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -69,7 +69,7 @@
           <mxGeometry x="30" y="10" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FzLFaQrDB-EBAlo0IdFk-9" value="IOcontroller" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="390" y="-100" width="220" height="160" as="geometry">
+          <mxGeometry x="680" y="-90" width="220" height="160" as="geometry">
             <mxRectangle x="420" y="180" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -83,7 +83,7 @@
           <mxGeometry y="78" width="220" height="82" as="geometry" />
         </mxCell>
         <mxCell id="FzLFaQrDB-EBAlo0IdFk-17" value="Viewer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="-100" width="220" height="160" as="geometry">
+          <mxGeometry x="350" y="-90" width="220" height="160" as="geometry">
             <mxRectangle x="420" y="180" width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -96,11 +96,11 @@
         <mxCell id="FzLFaQrDB-EBAlo0IdFk-20" value="// rendering robot" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FzLFaQrDB-EBAlo0IdFk-17">
           <mxGeometry y="78" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="FzLFaQrDB-EBAlo0IdFk-21" value="用户交互，跨进程交互" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="380" y="-140" width="140" height="30" as="geometry" />
+        <mxCell id="FzLFaQrDB-EBAlo0IdFk-21" value="图形界面交互，多进程通讯" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="665" y="-130" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FzLFaQrDB-EBAlo0IdFk-22" value="机器人三维模型渲染" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="-130" width="130" height="30" as="geometry" />
+          <mxGeometry x="350" y="-120" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
